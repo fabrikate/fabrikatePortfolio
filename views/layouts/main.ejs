@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <!-- libraries I need -->
+  <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.0-beta.2/angular.min.js"></script>
+  <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.3.8/angular-route.js"></script>
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="https://bootswatch.com/paper/bootstrap.css">
+
+  <!-- Files -->
+  <script type="text/javascript" src="/javascripts/script.js"></script>
+  <link rel="stylesheet" type="text/css" href="/stylesheets/style.css">
+  <title>Kate Stearns | Portfolio</title>
+</head>
+<body>
+  <img id="background" src="images/backgroundImg.png" />
+  <nav class="navbar navbar-default">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse">
+          <span class="sr-only"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="/">Kate Stearns </a>
+      </div>
+
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav">
+          <li id="showResume"><a href="https://resume.creddle.io/resume/f976npglqgv" target="blank">Resume<span class="st-only"></a></li>
+          <li><a href="#">Projects</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <div ng-view>
+  </div>
+</body>
+</html>

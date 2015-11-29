@@ -1,0 +1,8 @@
+#background {
+  z-index: -50;
+  position: fixed;
+  top: -1%;
+  left: -5%;
+  width: 110%;
+  height: 110%;
+}
